@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solicitar Permiso de Cámara" />
+
+    <TextView
+        android:id="@+id/tv_camera_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Estado Cámara" />
+
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solicitar Permiso de Ubicación" />
+
+    <TextView
+        android:id="@+id/tv_location_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Estado Ubicación" />
+
+    <Button
+        android:id="@+id/btn_storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solicitar Permisos de Almacenamiento" />
+
+    <TextView
+        android:id="@+id/tv_storage_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Estado Almacenamiento" />
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomar Foto"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:background="#dddddd" />
+
+    <Button
+        android:id="@+id/btn_get_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obtener Ubicación"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubicación" />
+
+</LinearLayout>
+
+
+
+
+
+
